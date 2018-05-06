@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Articles on Isaac Zhou</title>
+    <link>http://www.isaaczhou.com/articles/</link>
+    <description>Recent content in Articles on Isaac Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Nov 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="http://www.isaaczhou.com/articles/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>i3 Window Management</title>
+      <link>http://www.isaaczhou.com/articles/i3-window-manager/</link>
+      <pubDate>Wed, 15 Nov 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.isaaczhou.com/articles/i3-window-manager/</guid>
+      <description>I just started using i3 window manager and I love it. This will be the window manager for all of my Linux distros (Xubuntu and Manjaro). Here are some basics
+Fundamentals Installations  Install on Ubuntu  sudo apt-get install i3   Login  Choose i3 as login  Generate config file  I choose the super key/Windows key for the modifier key
+Get Started  open a terminal use Mod Enter find a program to open use Mod D to open a buffer (D menu) and enter the program i3 can also open a GUI folder  Mod D to trigger the D menu xdg-open /path e.</description>
+    </item>
+    
+    <item>
+      <title>D3 in Hugo</title>
+      <link>http://www.isaaczhou.com/articles/d3-visualization-embedded-in-jupyter-notebook/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.isaaczhou.com/articles/d3-visualization-embedded-in-jupyter-notebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Org-Mode Capabilities</title>
+      <link>http://www.isaaczhou.com/articles/all-about-org-mode/</link>
+      <pubDate>Mon, 13 Nov 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.isaaczhou.com/articles/all-about-org-mode/</guid>
+      <description>One of the reasons my marriage with Jupyter didn&amp;rsquo;t hold was the beautiful and sexy org-mode. I was totally blown away the first time I saw it. Just like emacs is more than a text editor; org-mode is much more than a note-taking, spreadsheet, task tracker, planner, literate programming code editor (Oh Yeah!!!)&amp;hellip; I guess the proper definition for org-mode is really an Emacs subsystem.
+The Almighty Org-Mode The org-mode was first introduced to the world in 2008 at this Google Talk.</description>
+    </item>
+    
+    <item>
+      <title>Experiencing and Enjoying Emacs</title>
+      <link>http://www.isaaczhou.com/articles/emacs-history-setup/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://www.isaaczhou.com/articles/emacs-history-setup/</guid>
+      <description>A little bit about my background Actually I learnt about emacs really long time ago. It was around 2003~2004, when I was still a college student majoring in Computer Science back in China. I majored in a top notch major in a top tier engineering school in China. However, I was not in love of it. The environment was really choking back then and I couldn&amp;rsquo;t see my future there.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>http://www.isaaczhou.com/articles/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 -0400</pubDate>
+      
+      <guid>http://www.isaaczhou.com/articles/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
+We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>http://www.isaaczhou.com/articles/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.isaaczhou.com/articles/goisforlovers/</guid>
+      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
+This document is a brief primer on using go templates.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>http://www.isaaczhou.com/articles/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.isaaczhou.com/articles/hugoisforlovers/</guid>
+      <description>&lt;h2 id=&#34;step-1-install-hugo&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
+
+&lt;p&gt;Go to &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
+appropriate version for your os and architecture.&lt;/p&gt;
+
+&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
+
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://www.isaaczhou.com/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

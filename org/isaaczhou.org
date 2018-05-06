@@ -1,0 +1,274 @@
+#+TITLE: Isaac Zhou: Personal Blog
+
+#+HUGO_BASE_DIR: ./temp
+#+HUGO_SECTION: ./
+#+HUGO_WEIGHT: auto
+#+HUGO_AUTO_SET_LASTMOD: t
+
+* Emacs, Org-Mode, Markdown and Hugo Workflow
+:PROPERTIES:
+:EXPORT_FILE_NAME: workflow
+:EXPORT_DATE: <2017-11-12 Sun>
+:END:
+
+Finally I found the workflow to blog with emacs, org mode, some markdown (minimum level) and hugo. In the past, I've been using Jupyter Notebooks and Pelican. DataQuest has a great [[https://www.dataquest.io/blog/how-to-setup-a-data-science-blog/][post]] with detailed steps to set it up. This is a great workflow if you are satisfied with coding in Jupyer Notebook and render the website with Pelican. This could have been the workflow for which I would have eventually settled. However, I encountered Emacs and then later Org-Mode. 
+
+** Emacs
+:PROPERTIES:
+:EXPORT_FILE_NAME: emacs-history-setup
+:EXPORT_DATE: <2017-11-12 Sun>
+:END:
+
+*** A little bit about my background
+
+Actually I learnt about emacs really long time ago. It was around 2003~2004, when I was still a college student majoring in Computer Science back in China. I majored in a top notch major in a top tier engineering school in China. However, I was not in love of it. The environment was really choking back then and I couldn't see my future there. I was only interested in the fundamental courses such as mathematical analysis (a fancier name for calculus), probability and statistics, discrete mathematics... During my sophomore year, I got interested in algorithms and data structure, however I had no interests in learning a programming langauge well. Until one day, I found a book called [[https://www.gnu.org/software/emacs/manual/eintr.html][An Introduction to Programming in Emacs Lisp]]. Unlike popular languages such as C/C++ or Java, lisp reads more like maths and its syntax kinda made sense to me. In the book, I also learnt that emacs was a powerful text-editor that is so much more than just a text editor. I tried it, got totally confused and stressed, eventually I let it go. Later I dropped out of that college and left China for a business education. 
+
+I never touched any hardcore computer programming since then. However, after 2+ years intensive training in a top tier school, I could feel that my computer skills are definitely above average among my classmates and colleauges. This slight edge is definitely one of the factors that helped me go far.
+
+After graduating with a master in finance degree from a top tier business school in Europe, I joined a boutique management consulting company based in New York. Unlike all the other consultants, I was given more tasks and responsibilities to build models and automated analytical tools. Since most of the business analytics in the real world still can't live with Excel, I mainly started programming in VBA. Yet, I always know there are something more to it. 
+
+In the next couple of years, I taught myself Python, R, SQL, Scala and Javascript. Being a data geek, I didn't just learn the languages but also used them for modeling and data analysis. During this period, like all the other data professionals (seriously data scientist is another abused word), I started and stayed with Jupyter Notebook/iPython. I'm truly grateful to Continuum for packaging all the Python libraries together and providing open source editions for developers and students to use.
+
+Jupyter is a truly powerful environment. I actually loved it and use it not just for Python, but as its new name (not just ipython) suggested, I also used it for a bunch of other languages after installing proper kernels such as R, SQL, Javascript etc.
+But I don't know why it always felt weird to write codes in a browser. I then started exploring different options: Sublime, Atom, Vim not :), until I found this great series of courses on youtube ([[http://vislab-ccom.unh.edu/~schwehr/rt/][RT2011]]). It's a university level research tool at the University of New Hampshire for researchers and science students. Using emacs, org mode on a linux machine is freaking cool and awesome.
+
+I spent a lot of time learning emacs in 2017 and finally got comfortable with it now. Still get a lot to learn, but I'm happy with my current set up and working environment.
+
+*** Emacs Set up
+This process could be intimidating and tasteless. Most people would just dump all the configs into one init.el file under .emacs/ folder. It's fine and a good start, yet I found the best practice is to use the org mode.
+
+Here's a very good [[https://www.youtube.com/watch?v=SzA2YODtgK4][tutorial]] from my NYC emacs meetup. Also there are some good quality videos from [[https://www.youtube.com/channel/UCGM8KgUXqsS4d8-4rgWRWKg][emmaculate]]. The basic idea is to embed elisp configs into a beautiful org mode file.
+
+I didn't create mine from scratch. I used the config files from here:
+
+- [[https://github.com/danielmai/.emacs.d][Daniel Mai]]
+- [[https://github.com/hrs/dotfiles/tree/master/emacs][HRS]]
+- [[https://github.com/wernerandrew/jedi-starter][Emacs as Python IDE]]
+
+Here's my current config on mac:
+
+- https://github.com/isaaczhou/.emacs.d
+
+The linux config should be almost the same (minus some mac specific fonts/configs).
+
+** Org Mode
+:PROPERTIES:
+:EXPORT_FILE_NAME: all-about-org-mode
+:EXPORT_DATE: <2017-11-12 Sun>
+:END:
+
+One of the reasons my marriage with Jupyter didn't hold was the beautiful and sexy org-mode. I was totally blown away the first time I saw it. Just like emacs is more than a text editor; org-mode is much more than a note-taking, spreadsheet, task tracker, planner, literate programming code editor (Oh Yeah!!!)... I guess the proper definition for org-mode is really an Emacs subsystem.
+
+*** The Almighty Org-Mode
+The org-mode was first introduced to the world in 2008 at this [[https://youtu.be/oJTwQvgfgMM][Google Talk]]. It's created by [[https://staff.science.uva.nl/c.dominik/][Carsten Dominik]], a Dutch astronomer (or as average Americans natively say a rocket scientist). This talk is fascinating. Yet just like genesis in the Bible, it's a little bit "in the Old Testament".
+
+What I really enjoyed is this talk from Harry Schwartz at a [[https://youtu.be/SzA2YODtgK4][NYC emacs meetup talk]]. By the way, this could be the best meetup I've ever been to in New York. I tried to go there more regularly. Another cudo for this meetup is the free food and drinks. People from the host company, thoughtbot, are extremely friendly, supportive and knowledgeable.
+
+*** Org-Mode Capabilities
+So enough talk, let's have a look what org-mode is capable of:
+
+**** Automatically generated bullet points
+Either unordered or ordered lists can be easily created:
+- To start: Just type ~* ~
+- Then create the siblings with ~M RET~ or ~C RET~. I think the differences are:
+  - ~M RET~ is to start with a sibling of the same type
+  - ~C RET~ is to start a new listed header
+- To indent or unindent a list use ~M Right~ or ~M Left~
+- To change the bullet point type, use ~S Right~ or ~S Left~
+- Install [[https://github.com/sabof/org-bullets][org-bullet]] to make it look great!
+
+**** Spreadsheet
+Who needs Excel if you have emacs? To create a table:
+- Simply use ~|content|~
+- Use ~|- TAB~ to add a divider line
+| Header1 | Header2 | Header3 |
+|---------+---------+---------|
+| Row1    | Row2    | Row3    |
+|         |         |         |
+**** Easy Calendar Integration
+Calendar Integration makes it easier for task tracking and project planning:
+- ~C c .~ to activate the date
+- HOLD ~S Left~ or ~S Right~ to navigate in the calendar
+
+**** Org-Mode Babel: The Jupyter Notebook Killer
+I have to say this is the best thing I've ever seen, and not just in computer.
+- ob-ipython
+This my most used code block. I create a snippet and generate a code block as below
+
+#+BEGIN_SRC ipython :session :file ../static/img/orgmode-demo.png :exports both
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+%matplot inline
+
+fig, ax = plt.subplots();
+ax.hist(np.random.randn(1000), bins=50)
+#+END_SRC
+
+#+RESULTS:
+[[file:../static/img/orgmode-demo.png]]
+
+
+- Javascript
+Can also evaluate javascript with proper Node.js installation
+
+#+begin_src js
+var mod = (a, b) => Math.pow(a, b);
+console.log(mod(4,8));
+#+end_src
+
+#+RESULTS:
+: 65536
+: undefined
+
+I wish that there's a way to implement D3.js in org, that will be perfect
+
+** Hugo
+* React
+
+** Install React
+
+** React Visualization with Semiotics
+
+* i3 Window Management
+:PROPERTIES:
+:EXPORT_FILE_NAME: i3-window-manager
+:EXPORT_DATE: <2017-11-15 Wed>
+:END:
+I just started using i3 window manager and I love it. This will be the window manager for all of my Linux distros (Xubuntu and Manjaro). Here are some basics
+
+** Fundamentals
+
+*** Installations
+    - Install on Ubuntu
+#+begin_src sh
+sudo apt-get install i3
+#+end_src
+    - Login
+Choose i3 as login
+[[file:./img/i3/i3-login.PNG]]
+
+Generate config file
+[[file:./img/i3/i3-config-file.PNG]]
+
+I choose the super key/Windows key for the modifier key
+ 
+*** Get Started
+    - open a terminal use ~Mod Enter~
+    - find a program to open use ~Mod D~ to open a buffer (D menu) and enter the program
+    - i3 can also open a GUI folder
+      - ~Mod D~ to trigger the D menu
+      - xdg-open /path e.g. xdg-open ~/Home/Downloads
+    - quit use ~Shift Mod Q~
+
+[[file:./img/i3/i3-d-menu.PNG]]
+*** Window Tiling
+Let's use terminal for demo here. So first:
+First, let's open an terminal with ~Mod Enter~
+[[file:./img/i3/i3-tile-window-1.PNG]]
+
+Then open another terminal, i3 will automatically tile it evenly
+[[file:./img/i3/i3-tile-window-2.PNG]]
+
+We can tile as many as windows, until it looks hedious:
+[[file:./img/i3/i3-tile-window-3.PNG]]
+
+*** Window Management
+There are four important window management skills
+**** Move Into Another Window
+Very intuitive, just use ~Mod <arrow keys>~, for example, right now, I'm at the left terminal
+
+[[file:./img/i3/i3-move-window-before.PNG]]
+
+if I want to move to the right window, just enter ~Mod Right~ (or on linux ~Mod l~)
+[[file:./img/i3/i3-move-window-after.PNG]]
+Note the blue cursor moved to terminal 2. Can shuffle between windows with ~Mod Right~ and ~Mod Left~
+
+Similarly, we can use ~Mod Up~ ~Mod Down~ for horizontal split.
+**** Direction
+For now, i3 will automatically tile the windows horizontally. How about open windows vertically? Just use ~Mod v~ and open a new window
+
+I'm currently at a single terminal
+[[file:./img/i3/i3-tile-vertical-1.PNG]]
+
+press ~Mod v~ and then press ~Mod Enter~
+[[file:./img/i3/i3-tile-vertical-2.PNG]]
+
+This a really neat feature. We can easily make something complicated as this
+[[file:./img/i3/i3-tile-complex.PNG]]
+**** Resizing
+to resize the window, trigger the resize with ~Mod R~ and it will display a red "Resize" at the bottom left
+[[file:./img/i3/i3-resize.PNG]]
+
+Then use arrow keys to resize the focus window, see below
+[[file:./img/i3/i3-resized-tiles.PNG]]
+
+To exit the resize mode, use ~ESC~ key
+**** Shift window
+We can also do a bunch of crazy stuff to shift windows with ~Shift Mod Arrow Keys~
+Here's a shifted window results
+[[file:./img/i3/i3-tile-shift.PNG]]
+**** Windows in different display mode
+There are three different window display mode
+***** Stack Mode
+Use ~Mod S~ key to conver to stack mode and use ~Mod Arrow~ key to navigate among different windows
+[[file:./img/i3/i3-stack.PNG]]
+***** Tab Mode
+Use ~Mod W~ to convert to tab mode
+[[file:./img/i3/i3-tab.PNG]]
+***** Tile Mode
+To get back to the tile mode, use ~Mod E~ key
+*** Workstations
+One of the best features. Made me think about Mac's multiple desktop function
+**** Create a new workstation
+
+Use ~Shift Mod Number~ to create a workstation, and there will be a numbered list of workstations at left bottom
+[[file:./img/i3/i3-workstations.PNG]]
+
+Then just use ~Mod Number~ to go to that workstation
+
+** Config
+
+The i3 config file is in ~.config/i3/config~. If the config was not created, we can use ~i3-config-wizard~
+
+To add a keybinding, go to the config file and enter
+
+#+begin_src sh
+bindsym $mod+shift+x exec i3lock
+#+end_src
+
+Then use ~Shift mod R~ to restart i3
+
+To learn more about customization via config file, read [[https://i3wm.org/][i3 Documentation]]'s [[https://i3wm.org/docs/userguide.html][user's guide]].
+
+Also this [[https://youtu.be/ARKIwOlazKI][youtube video]] is a great place to learn more about customization and config as well.
+
+* Python Almighty with Anaconda
+:PROPERTIES:
+:EXPORT_FILE_NAME: anaconda-installation
+:EXPORT_DATE: <2017-12-06 Wed>
+:END:
+
+Anaconda is a great packaged python distribution. It consolidate most commonly used python packages in one centralized repository. Plus, it saves a lot of headache installing some annoying yet necessary packages, hello tensorflow-gpu. In this article, we will go through anaconda download, installation, configuration, usage and uninstallation.
+
+** Download
+The latest version of Anaconda at this point is 5.0.1, however I have encountered several issues with this version, particularly with tensorflow. So I'd recommend downloading and installing version 4.2.0. It's a much more stable version and contains python 3.5. Go to this [[https://repo.continuum.io/archive/][link]] and search for Anaconda-3-4.2.0, download the proper platform version.
+** Installation
+The installation for Mac and Windows will be fool proof. To install on linux, type
+#+begin_src sh
+sudo bash Anaconda-3-4.2.0-Linux-x86_64.sh
+#+end_src
+
+Then follow the steps
+** Configuration
+I usually set Anaconda python as my system default python. This can be done with a simple .bashrc config.
+#+begin_src sh
+alias python="~/anaconda/bin/python"
+#+end_src
+
+Now if I type python, I can see that Anaconda is used rather than 
+** Environment Management
+
+** Key Packages
+
+** Uninstallation
