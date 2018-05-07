@@ -3,22 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.isaaczhou.com/articles/i3-window-manager/</loc>
+    <loc>https://www.isaaczhou.com/post/intro-to-neural-networks/</loc>
+    <lastmod>2018-05-05T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.isaaczhou.com/post/hugo-blog-in-org/</loc>
+    <lastmod>2018-05-05T06:19:22-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.isaaczhou.com/post/time-series-analysis-python/</loc>
+    <lastmod>2018-05-05T11:46:46-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.isaaczhou.com/post/i3-window-manager/</loc>
     <lastmod>2017-11-15T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.isaaczhou.com/articles/d3-visualization-embedded-in-jupyter-notebook/</loc>
+    <loc>https://www.isaaczhou.com/post/d3-visualization-embedded-in-jupyter-notebook/</loc>
     <lastmod>2017-11-14T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.isaaczhou.com/articles/all-about-org-mode/</loc>
+    <loc>https://www.isaaczhou.com/post/all-about-org-mode/</loc>
     <lastmod>2017-11-13T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.isaaczhou.com/articles/emacs-history-setup/</loc>
+    <loc>https://www.isaaczhou.com/post/emacs-history-setup/</loc>
     <lastmod>2017-11-12T00:00:00-05:00</lastmod>
   </url>
   
@@ -48,24 +63,18 @@
   </url>
   
   <url>
-    <loc>https://www.isaaczhou.com/articles/creating-a-new-theme/</loc>
+    <loc>https://www.isaaczhou.com/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.isaaczhou.com/articles/goisforlovers/</loc>
+    <loc>https://www.isaaczhou.com/post/goisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.isaaczhou.com/articles/hugoisforlovers/</loc>
+    <loc>https://www.isaaczhou.com/post/hugoisforlovers/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.isaaczhou.com/articles/</loc>
-    <lastmod>2017-11-15T00:00:00-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -75,6 +84,18 @@
   
   <url>
     <loc>https://www.isaaczhou.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.isaaczhou.com/categories/datascience/</loc>
+    <lastmod>2018-05-05T11:46:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.isaaczhou.com/categories/emacs/</loc>
+    <lastmod>2017-11-13T00:00:00-05:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -90,14 +111,26 @@
   </url>
   
   <url>
+    <loc>https://www.isaaczhou.com/tags/hugo/</loc>
+    <lastmod>2018-05-05T06:19:22-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.isaaczhou.com/categories/hugo/</loc>
     <lastmod>2014-09-28T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://www.isaaczhou.com/tags/intro/</loc>
+    <lastmod>2018-05-05T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.isaaczhou.com/</loc>
-    <lastmod>2017-11-15T00:00:00-05:00</lastmod>
+    <lastmod>2018-05-05T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -114,7 +147,44 @@
   </url>
   
   <url>
+    <loc>https://www.isaaczhou.com/categories/neuralnetworks/</loc>
+    <lastmod>2018-05-05T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.isaaczhou.com/tags/neuralnetworks/</loc>
+    <lastmod>2018-05-05T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.isaaczhou.com/tags/org/</loc>
+    <lastmod>2018-05-05T06:19:22-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.isaaczhou.com/post/</loc>
+    <lastmod>2018-05-05T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.isaaczhou.com/tags/python/</loc>
+    <lastmod>2018-05-05T11:46:46-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.isaaczhou.com/tags/</loc>
+    <lastmod>2018-05-05T06:19:22-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.isaaczhou.com/tags/timeseries/</loc>
+    <lastmod>2018-05-05T11:46:46-04:00</lastmod>
     <priority>0</priority>
   </url>
   

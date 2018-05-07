@@ -1,0 +1,1369 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>i3 Window Management</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.40.2" />
+        
+
+        
+            <meta name="author" content="Isaac Zhou">
+        
+        
+            <meta name="description" content="A Freaking Awesome Linux Window Management">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="i3 Window Management"/>
+<meta name="twitter:description" content="A Freaking Awesome Linux Window Management"/>
+<meta name="twitter:site" content="@acebigdata"/>
+
+        <meta property="og:title" content="i3 Window Management" />
+<meta property="og:description" content="A Freaking Awesome Linux Window Management" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.isaaczhou.com/post/i3-window-manager/" />
+
+
+
+<meta property="article:published_time" content="2017-11-15T00:00:00-05:00"/>
+
+<meta property="article:modified_time" content="2017-11-15T00:00:00-05:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="i3 Window Management">
+<meta itemprop="description" content="A Freaking Awesome Linux Window Management">
+
+
+<meta itemprop="datePublished" content="2017-11-15T00:00:00-05:00" />
+<meta itemprop="dateModified" content="2017-11-15T00:00:00-05:00" />
+<meta itemprop="wordCount" content="513">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="https://www.isaaczhou.com/css/main.css">
+            <link rel="stylesheet" href="https://www.isaaczhou.com/css/add-on.css">
+        
+
+        
+            
+                
+            
+        
+
+        
+            
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-103059971-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+        
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="https://www.isaaczhou.com">post</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/post/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Post
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/categories/">
+                            <i class="fa fa-sitemap">&nbsp;</i>Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/contact/">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="https://www.isaaczhou.com">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="https://www.isaaczhou.com">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/post/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Post
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/">
+                            <h3>
+                                <i class="fa fa-sitemap">&nbsp;</i>Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/contact/">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://www.isaaczhou.com/post/intro-to-neural-networks/">Intro to Deep Neural Networks</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-05-05'>
+                                    May 5, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://www.isaaczhou.com/post/hugo-blog-in-org/">Writing Hugo blog in Org</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-05-05'>
+                                    May 5, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://www.isaaczhou.com/post/time-series-analysis-python/">Time Series Analysis in Python</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-02-05'>
+                                    February 5, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://www.isaaczhou.com/post/i3-window-manager/">i3 Window Management</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-11-15'>
+                                    November 15, 2017</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+        
+        
+        
+
+        <a href="https://www.isaaczhou.com/post/i3-window-manager/" class="image featured">
+            <img src="/img/2017/11/i3.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://www.isaaczhou.com/post/d3-visualization-embedded-in-jupyter-notebook/">D3 in Hugo</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-11-14'>
+                                    November 14, 2017</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+        
+        
+        
+
+        <a href="https://www.isaaczhou.com/post/d3-visualization-embedded-in-jupyter-notebook/" class="image featured">
+            <img src="/img/2017/11/d3.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f&text=i3%20Window%20Management&via=acebigdata" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f&title=i3%20Window%20Management" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f&title=i3%20Window%20Management" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f&title=i3%20Window%20Management" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f&description=i3%20Window%20Management" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Isaac%20Zhou&body=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="https://www.isaaczhou.com/post/i3-window-manager/">i3 Window Management</a></h1>
+            
+        
+        
+            <p>A Freaking Awesome Linux Window Management</p>
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2017-11-15'>
+            November 15, 2017</time>
+        <span class="author">Isaac Zhou</span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f&text=i3%20Window%20Management&via=acebigdata" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f&title=i3%20Window%20Management" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f&title=i3%20Window%20Management" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f&title=i3%20Window%20Management" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f&description=i3%20Window%20Management" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Isaac%20Zhou&body=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fi3-window-manager%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+      </ul>
+    </section>
+  
+
+  
+    
+
+    
+        
+        
+
+
+
+
+
+
+    
+
+
+        
+        
+        
+
+        <a href="https://www.isaaczhou.com/post/i3-window-manager/" class="image featured">
+            <img src="/img/2017/11/i3.png" alt="">
+        </a>
+    
+
+
+  <div id="content">
+    
+
+<p>I just started using i3 window manager and I love it. This will be the window manager for all of my Linux distros (Xubuntu and Manjaro). Here are some basics</p>
+
+<h2 id="fundamentals">Fundamentals</h2>
+
+<h3 id="installations">Installations</h3>
+
+<ul>
+<li>Install on Ubuntu</li>
+</ul>
+
+<pre><code class="language-sh">sudo apt-get install i3
+</code></pre>
+
+<ul>
+<li>Login</li>
+</ul>
+
+<p>Choose i3 as login
+
+<figure>
+    
+        <img src="/img/i3/i3-login.PNG" />
+    
+    
+</figure>
+</p>
+
+<p>Generate config file
+
+<figure>
+    
+        <img src="/img/i3/i3-config-file.PNG" />
+    
+    
+</figure>
+</p>
+
+<p>I choose the super key/Windows key for the modifier key</p>
+
+<h3 id="get-started">Get Started</h3>
+
+<ul>
+<li>open a terminal use <code>Mod Enter</code></li>
+<li>find a program to open use <code>Mod D</code> to open a buffer (D menu) and enter the program</li>
+<li>i3 can also open a GUI folder
+
+<ul>
+<li><code>Mod D</code> to trigger the D menu</li>
+<li>xdg-open /path e.g. xdg-open ~/Home/Downloads</li>
+</ul></li>
+<li>quit use <code>Shift Mod Q</code></li>
+</ul>
+
+
+<figure>
+    
+        <img src="/img/i3/i3-d-menu.PNG" />
+    
+    
+</figure>
+
+
+<h3 id="window-tiling">Window Tiling</h3>
+
+<p>Let&rsquo;s use terminal for demo here. So first:
+First, let&rsquo;s open an terminal with <code>Mod Enter</code>
+
+<figure>
+    
+        <img src="/img/i3/i3-tile-window-1.PNG" />
+    
+    
+</figure>
+</p>
+
+<p>Then open another terminal, i3 will automatically tile it evenly
+
+<figure>
+    
+        <img src="/img/i3/i3-tile-window-2.PNG" />
+    
+    
+</figure>
+</p>
+
+<p>We can tile as many as windows, until it looks hedious:
+
+<figure>
+    
+        <img src="/img/i3/i3-tile-window-3.PNG" />
+    
+    
+</figure>
+</p>
+
+<h3 id="window-management">Window Management</h3>
+
+<p>There are four important window management skills</p>
+
+<h4 id="move-into-another-window">Move Into Another Window</h4>
+
+<p>Very intuitive, just use <code>Mod &lt;arrow keys&gt;</code>, for example, right now, I&rsquo;m at the left terminal</p>
+
+
+<figure>
+    
+        <img src="/img/i3/i3-move-window-before.PNG" />
+    
+    
+</figure>
+
+
+<p>if I want to move to the right window, just enter <code>Mod Right</code> (or on linux <code>Mod l</code>)
+
+<figure>
+    
+        <img src="/img/i3/i3-move-window-after.PNG" />
+    
+    
+</figure>
+
+Note the blue cursor moved to terminal 2. Can shuffle between windows with <code>Mod Right</code> and <code>Mod Left</code></p>
+
+<p>Similarly, we can use <code>Mod Up</code> <code>Mod Down</code> for horizontal split.</p>
+
+<h4 id="direction">Direction</h4>
+
+<p>For now, i3 will automatically tile the windows horizontally. How about open windows vertically? Just use <code>Mod v</code> and open a new window</p>
+
+<p>I&rsquo;m currently at a single terminal
+
+<figure>
+    
+        <img src="/img/i3/i3-tile-vertical-1.PNG" />
+    
+    
+</figure>
+</p>
+
+<p>press <code>Mod v</code> and then press <code>Mod Enter</code>
+
+<figure>
+    
+        <img src="/img/i3/i3-tile-vertical-2.PNG" />
+    
+    
+</figure>
+</p>
+
+<p>This a really neat feature. We can easily make something complicated as this
+
+<figure>
+    
+        <img src="/img/i3/i3-tile-complex.PNG" />
+    
+    
+</figure>
+</p>
+
+<h4 id="resizing">Resizing</h4>
+
+<p>to resize the window, trigger the resize with <code>Mod R</code> and it will display a red &ldquo;Resize&rdquo; at the bottom left
+
+<figure>
+    
+        <img src="/img/i3/i3-resize.PNG" />
+    
+    
+</figure>
+</p>
+
+<p>Then use arrow keys to resize the focus window, see below
+
+<figure>
+    
+        <img src="/img/i3/i3-resized-tiles.PNG" />
+    
+    
+</figure>
+</p>
+
+<p>To exit the resize mode, use <code>ESC</code> key</p>
+
+<h4 id="shift-window">Shift window</h4>
+
+<p>We can also do a bunch of crazy stuff to shift windows with <code>Shift Mod Arrow Keys</code>
+Here&rsquo;s a shifted window results
+
+<figure>
+    
+        <img src="/img/i3/i3-tile-shift.PNG" />
+    
+    
+</figure>
+</p>
+
+<h4 id="windows-in-different-display-mode">Windows in different display mode</h4>
+
+<p>There are three different window display mode</p>
+
+<ol>
+<li><p>Stack Mode</p>
+
+<p>Use <code>Mod S</code> key to conver to stack mode and use <code>Mod Arrow</code> key to navigate among different windows
+
+<figure>
+    
+        <img src="/img/i3/i3-stack.PNG" />
+    
+    
+</figure>
+</p></li>
+
+<li><p>Tab Mode</p>
+
+<p>Use <code>Mod W</code> to convert to tab mode
+
+<figure>
+    
+        <img src="/img/i3/i3-tab.PNG" />
+    
+    
+</figure>
+</p></li>
+
+<li><p>Tile Mode</p>
+
+<p>To get back to the tile mode, use <code>Mod E</code> key</p></li>
+</ol>
+
+<h3 id="workstations">Workstations</h3>
+
+<p>One of the best features. Made me think about Mac&rsquo;s multiple desktop function</p>
+
+<h4 id="create-a-new-workstation">Create a new workstation</h4>
+
+<p>Use <code>Shift Mod Number</code> to create a workstation, and there will be a numbered list of workstations at left bottom
+
+<figure>
+    
+        <img src="/img/i3/i3-workstations.PNG" />
+    
+    
+</figure>
+</p>
+
+<p>Then just use <code>Mod Number</code> to go to that workstation</p>
+
+<h2 id="config">Config</h2>
+
+<p>The i3 config file is in <code>.config/i3/config</code>. If the config was not created, we can use <code>i3-config-wizard</code></p>
+
+<p>To add a keybinding, go to the config file and enter</p>
+
+<pre><code class="language-sh">bindsym $mod+shift+x exec i3lock
+</code></pre>
+
+<p>Then use <code>Shift mod R</code> to restart i3</p>
+
+<p>To learn more about customization via config file, read <a href="https://i3wm.org/">i3 Documentation</a>&rsquo;s <a href="https://i3wm.org/docs/userguide.html">user&rsquo;s guide</a>.</p>
+
+<p>Also this <a href="https://youtu.be/ARKIwOlazKI">youtube video</a> is a great place to learn more about customization and config as well.</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/linux'>Linux</a></li>
+    
+</ul>
+
+  </footer>
+
+</article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="https://www.isaaczhou.com/post/d3-visualization-embedded-in-jupyter-notebook/"
+                class="button big previous">D3 in Hugo</a></li>
+    
+
+    
+        <li><a href="https://www.isaaczhou.com/post/time-series-analysis-python/"
+                class="button big next">Time Series Analysis in Python</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='/'><img src="/img/main/profile.png" class="intro-circle" width="150" alt="Isaac Zhou" /></a>
+      
+    
+    
+      <header>
+        <h2>Isaac Zhou</h2>
+        <p>A Data Scientist Quest on Data, Coding, Tech, Business and Life</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          <li>
+            <a href="" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+          </li>
+        
+        
+  <li><a href="//github.com/isaaczhou" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/isaaczhou" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/acebigdata" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:admin@isaaczhou.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section id="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://www.isaaczhou.com/post/intro-to-neural-networks/">Intro to Deep Neural Networks</a>
+              </h3>
+              
+              <time class="published" datetime='2018-05-05'>
+                May 5, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://www.isaaczhou.com/post/hugo-blog-in-org/">Writing Hugo blog in Org</a>
+              </h3>
+              
+              <time class="published" datetime='2018-05-05'>
+                May 5, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://www.isaaczhou.com/post/time-series-analysis-python/">Time Series Analysis in Python</a>
+              </h3>
+              
+              <time class="published" datetime='2018-02-05'>
+                February 5, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://www.isaaczhou.com/post/i3-window-manager/">i3 Window Management</a>
+              </h3>
+              
+              <time class="published" datetime='2017-11-15'>
+                November 15, 2017
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+        
+        
+        
+
+        <a href="https://www.isaaczhou.com/post/i3-window-manager/" class="image featured">
+            <img src="/img/2017/11/i3.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://www.isaaczhou.com/post/d3-visualization-embedded-in-jupyter-notebook/">D3 in Hugo</a>
+              </h3>
+              
+              <time class="published" datetime='2017-11-14'>
+                November 14, 2017
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+        
+        
+        
+
+        <a href="https://www.isaaczhou.com/post/d3-visualization-embedded-in-jupyter-notebook/" class="image featured">
+            <img src="/img/2017/11/d3.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/emacs/">Emacs</a>
+                <span style="float:right;">2</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/hugo/">Hugo</a>
+                <span style="float:right;">2</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/datascience/">DataScience</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/go/">Go</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/linux/">Linux</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/neuralnetworks/">NeuralNetworks</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/emacs/">emacs</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+    </section>
+  
+
+  
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          <li>
+            <a href="" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+          </li>
+        
+        
+  <li><a href="//github.com/isaaczhou" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/isaaczhou" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/acebigdata" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:admin@isaaczhou.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2018
+        
+          Isaac Zhou
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="https://www.isaaczhou.com/js/util.js"></script>
+      <script src="https://www.isaaczhou.com/js/main.js"></script>
+      <script src="https://www.isaaczhou.com/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
