@@ -61,19 +61,19 @@ pluralizeListTitles = false
 [params.intro]
   header    = "Isaac Zhou"
 
-  paragraph = "Personal blog on data science, business and more... <i class='fa fa-database'></i>"
+  paragraph = "A Data Scientist Quest on Data, Coding, Tech, Business and Life"
 
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
   [params.intro.pic]
-    src       = "/img/main/logo.jpg"
+    src       = "/img/main/profile.png"
     # Sets Image to be a cirlce
-    circle    = false
+    circle    = true
     # Sets Image to be Future Imperfect's hexagon
-    imperfect = true
-    width     = ""
-    alt       = "Hugo Future Imperfect"
+    imperfect = false
+    width     = "150"
+    alt       = "Isaac Zhou"
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
@@ -88,8 +88,8 @@ pluralizeListTitles = false
   weight = 1
 
 [[menu.main]]
-  name = "Articles"
-  url = "/articles/"
+  name = "Post"
+  url = "/post/"
   identifier = "fa fa-newspaper-o"
   weight = 2
 
@@ -122,7 +122,7 @@ pluralizeListTitles = false
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github          = "primerpy/primerpy.github.io"
+  github          = "isaaczhou"
 #  gitlab          = ""
 #  stackoverflow   = "" # User Number
 #  bitbucket       = ""
@@ -154,11 +154,11 @@ pluralizeListTitles = false
 #    qq              = "" # User ID Number
 #  instagram       = "example"
 #  tumblr          = ""
-#  twitter         = "@isaaczhou85"
+  twitter         = "acebigdata"
 #  skype           = ""
 #  snapchat        = ""
 #  pinterest       = "example"
 #  telegram        = "example"
 #  vine            = ""
   # Email
-#  email           = "isaaczhou85@gmail.com"
+  email           = "admin@isaaczhou.com"

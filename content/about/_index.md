@@ -26,4 +26,4 @@ Checkout my other websites:
 * [Ace Big Data](http://www.acebigdata.com/): My Big Data Products and Consulting Services
 
 
-Thanks for reading!
+Keep believing and building!
