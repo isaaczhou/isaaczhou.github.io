@@ -14,7 +14,7 @@ pluralizeListTitles = false
   # Sets the navbarTitle that appears in the top left of the navigation bar
   navbarTitle          = "Isaac Zhou"
   # Sets where "View More Posts" links
-  viewMorePostLink     = "/blog/"
+  viewMorePostLink     = "/post/"
 
 # Optional Params
   # Sets navbarTitle to match the section of the website
