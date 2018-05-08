@@ -9,7 +9,6 @@ featuredpath = "date"
 linktitle = ""
 title = "Getting Started with Hugo"
 type = "post"
-
 +++
 
 ## Step 1. Install Hugo

@@ -2,8 +2,9 @@
 title = "Intro to Deep Neural Networks"
 author = "Isaac Zhou"
 date = 2018-05-05
-featured_image = "deepnn.png"
-featuredalt = "deepnn"
+featured = "/05/deepnn.png"
+featuredalt = "DeepNN"
+featuredpath = "date"
 tags = ["intro", "neuralnetworks"]
 categories = ["NeuralNetworks"]
 weight = 2001

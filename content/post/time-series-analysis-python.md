@@ -2,7 +2,6 @@
 title = "Time Series Analysis in Python"
 author = ["Isaac Zhou"]
 date = 2018-02-05
-lastmod = 2018-05-05T11:46:46-04:00
 tags = ["python", "timeseries"]
 categories = ["DataScience"]
 weight = 2001
