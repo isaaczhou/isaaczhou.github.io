@@ -1,4 +1,4 @@
-baseurl = "https://www.isaaczhou.com"
+baseurl = "https://isaaczhou.github.io"
 languageCode = "en-us"
 title = "Isaac Zhou"
 theme = "hugo-future-imperfect"
