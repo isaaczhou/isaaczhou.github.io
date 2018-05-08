@@ -18,7 +18,7 @@
   </url>
   
   <url>
-    <loc>https://www.isaaczhou.com/post/self-driving-car/</loc>
+    <loc>https://www.isaaczhou.com/post/self-driving-car-history/</loc>
     <lastmod>2018-05-08T17:49:26-04:00</lastmod>
   </url>
   
@@ -93,6 +93,10 @@
   </url>
   
   <url>
+    <loc>https://www.isaaczhou.com/itemized/data-view/</loc>
+  </url>
+  
+  <url>
     <loc>https://www.isaaczhou.com/categories/</loc>
     <priority>0</priority>
   </url>
@@ -126,14 +130,14 @@
   </url>
   
   <url>
-    <loc>https://www.isaaczhou.com/tags/hugo/</loc>
-    <lastmod>2018-05-05T06:19:22-04:00</lastmod>
+    <loc>https://www.isaaczhou.com/categories/hugo/</loc>
+    <lastmod>2014-09-28T00:00:00-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.isaaczhou.com/categories/hugo/</loc>
-    <lastmod>2014-09-28T00:00:00-04:00</lastmod>
+    <loc>https://www.isaaczhou.com/tags/hugo/</loc>
+    <lastmod>2018-05-05T06:19:22-04:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -40,12 +40,13 @@
     </item>
     
     <item>
-      <title>Self Driving Car</title>
-      <link>https://www.isaaczhou.com/post/self-driving-car/</link>
+      <title>Self Driving Car History</title>
+      <link>https://www.isaaczhou.com/post/self-driving-car-history/</link>
       <pubDate>Tue, 08 May 2018 17:49:26 -0400</pubDate>
       
-      <guid>https://www.isaaczhou.com/post/self-driving-car/</guid>
-      <description>Test</description>
+      <guid>https://www.isaaczhou.com/post/self-driving-car-history/</guid>
+      <description>History This is a documentary on the seminal DARPA Grand Challenge, the beginning of the self-driving car history.   (Udacity, 2018)
+Where are we now: 2018 This is the year of 2018. Even after years&amp;rsquo; of hard working and innovation, the day that you’ll be able to buy a self-driving car, or even ride in one, is a lot further out than you probably think.   (Verge, 2018)</description>
     </item>
     
     <item>
@@ -186,6 +187,15 @@ appropriate version for your os and architecture.&lt;/p&gt;
 
 &lt;p&gt;More complete instructions are available at &lt;a href=&#34;https://www.isaaczhou.com/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;
 &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.isaaczhou.com/itemized/data-view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.isaaczhou.com/itemized/data-view/</guid>
+      <description>  AVA Excel Data Table Demo            </description>
     </item>
     
   </channel>
