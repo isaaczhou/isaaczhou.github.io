@@ -14,7 +14,17 @@
   
   <url>
     <loc>https://www.isaaczhou.com/post/time-series-analysis-python/</loc>
-    <lastmod>2018-05-05T11:46:46-04:00</lastmod>
+    <lastmod>2018-02-05T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.isaaczhou.com/post/markdown/</loc>
+    <lastmod>2018-05-08T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.isaaczhou.com/post/chatbot/</loc>
+    <lastmod>2018-05-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -88,7 +98,7 @@
   
   <url>
     <loc>https://www.isaaczhou.com/categories/datascience/</loc>
-    <lastmod>2018-05-05T11:46:46-04:00</lastmod>
+    <lastmod>2018-02-05T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -147,6 +157,12 @@
   </url>
   
   <url>
+    <loc>https://www.isaaczhou.com/categories/markdown/</loc>
+    <lastmod>2018-05-08T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://www.isaaczhou.com/categories/neuralnetworks/</loc>
     <lastmod>2018-05-05T00:00:00-04:00</lastmod>
     <priority>0</priority>
@@ -172,7 +188,7 @@
   
   <url>
     <loc>https://www.isaaczhou.com/tags/python/</loc>
-    <lastmod>2018-05-05T11:46:46-04:00</lastmod>
+    <lastmod>2018-02-05T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -184,7 +200,7 @@
   
   <url>
     <loc>https://www.isaaczhou.com/tags/timeseries/</loc>
-    <lastmod>2018-05-05T11:46:46-04:00</lastmod>
+    <lastmod>2018-02-05T00:00:00-05:00</lastmod>
     <priority>0</priority>
   </url>
   

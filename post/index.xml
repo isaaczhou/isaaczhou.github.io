@@ -40,6 +40,34 @@
     </item>
     
     <item>
+      <title>Markdown Crash Course</title>
+      <link>https://www.isaaczhou.com/post/markdown/</link>
+      <pubDate>Tue, 08 May 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://www.isaaczhou.com/post/markdown/</guid>
+      <description>To write headings use #
+For example, # Heading 1 will generate
+Heading 1 Similarly, the rest can be generated
+Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 For text decoration This text is italicized, using _word_
+This text is string, using **word**
+This text is strikethrough, using ~~word~~
+Horizontal Rules
+can be done with ___ or ***
+Blockquotes
+ This is a quote
+ Links can be done as this [Isaac Zhou](https://www.</description>
+    </item>
+    
+    <item>
+      <title>Build a Chatbot in Python</title>
+      <link>https://www.isaaczhou.com/post/chatbot/</link>
+      <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.isaaczhou.com/post/chatbot/</guid>
+      <description> How to build a Chatbot in Python </description>
+    </item>
+    
+    <item>
       <title>i3 Window Management</title>
       <link>https://www.isaaczhou.com/post/i3-window-manager/</link>
       <pubDate>Wed, 15 Nov 2017 00:00:00 -0500</pubDate>
