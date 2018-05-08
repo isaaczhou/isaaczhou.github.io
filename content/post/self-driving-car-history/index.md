@@ -15,11 +15,11 @@ type = "post"
 
 This is a documentary on the seminal DARPA Grand Challenge, the beginning of the self-driving car history.
 {{< youtube saVZ_X9GfIM >}}
-(Udacity, 2018)
+*(Udacity, 2018)*
 
 
 ## Where are we now: 2018
 
 This is the year of 2018. Even after years' of hard working and innovation, the day that you’ll be able to buy a self-driving car, or even ride in one, is a lot further out than you probably think.
 {{< youtube _Zd1ByhigPU >}}
-(Verge, 2018)
+*(Verge, 2018)*
