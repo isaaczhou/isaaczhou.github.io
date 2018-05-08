@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://isaaczhou.github.io/post/intro-to-neural-networks/</loc>
+    <lastmod>2018-05-05T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/post/hugo-blog-in-org/</loc>
+    <lastmod>2018-05-05T06:19:22-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/post/time-series-analysis-python/</loc>
+    <lastmod>2018-02-05T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/post/self-driving-car-history/</loc>
+    <lastmod>2018-05-08T17:49:26-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/post/markdown/</loc>
+    <lastmod>2018-05-08T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/post/chatbot/</loc>
+    <lastmod>2018-05-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/post/i3-window-manager/</loc>
+    <lastmod>2017-11-15T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/post/d3-visualization-embedded-in-jupyter-notebook/</loc>
+    <lastmod>2017-11-14T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/post/all-about-org-mode/</loc>
+    <lastmod>2017-11-13T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/post/emacs-history-setup/</loc>
+    <lastmod>2017-11-12T00:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/about/</loc>
+    <lastmod>2017-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/itemized/item1/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/itemized/item2/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/itemized/item3/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/itemized/item4/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/post/creating-a-new-theme/</loc>
+    <lastmod>2014-09-28T00:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/post/goisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/post/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/itemized/data-view/</loc>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/categories/datascience/</loc>
+    <lastmod>2018-02-05T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/categories/emacs/</loc>
+    <lastmod>2017-11-13T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/categories/emacs/</loc>
+    <lastmod>2017-11-13T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/categories/go/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/tags/hugo/</loc>
+    <lastmod>2018-05-05T06:19:22-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/categories/hugo/</loc>
+    <lastmod>2014-09-28T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/tags/intro/</loc>
+    <lastmod>2018-05-05T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/</loc>
+    <lastmod>2018-05-05T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/itemized/</loc>
+    <lastmod>2017-06-22T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/categories/linux/</loc>
+    <lastmod>2017-11-15T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/categories/markdown/</loc>
+    <lastmod>2018-05-08T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/categories/neuralnetworks/</loc>
+    <lastmod>2018-05-05T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/tags/neuralnetworks/</loc>
+    <lastmod>2018-05-05T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/tags/org/</loc>
+    <lastmod>2018-05-05T06:19:22-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/post/</loc>
+    <lastmod>2018-05-05T00:00:00-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/tags/python/</loc>
+    <lastmod>2018-02-05T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/categories/self-driving-car/</loc>
+    <lastmod>2018-05-08T17:49:26-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/tags/</loc>
+    <lastmod>2018-05-05T06:19:22-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://isaaczhou.github.io/tags/timeseries/</loc>
+    <lastmod>2018-02-05T00:00:00-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

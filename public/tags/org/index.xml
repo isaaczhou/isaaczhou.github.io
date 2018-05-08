@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Org on Isaac Zhou</title>
+    <link>https://isaaczhou.github.io/tags/org/</link>
+    <description>Recent content in Org on Isaac Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 May 2018 00:00:00 -0400</lastBuildDate>
+    
+	<atom:link href="https://isaaczhou.github.io/tags/org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Writing Hugo blog in Org</title>
+      <link>https://isaaczhou.github.io/post/hugo-blog-in-org/</link>
+      <pubDate>Sat, 05 May 2018 00:00:00 -0400</pubDate>
+      
+      <guid>https://isaaczhou.github.io/post/hugo-blog-in-org/</guid>
+      <description>First Heading with the post  This post will be exported as content/posts/hugo-blog-in-org.md Its title will be &amp;ldquo;Hugo Blog in Org&amp;rdquo; It will have hugo and org tags and emacs as category The menu item weight and post weight are auto-calculated The menu item identifier is auto-set the lastmod property in the front-matter is set automatically to the time of expoert  A sub-heading under that heading  It&amp;rsquo;s draft state will be marked as true as the subtree has the todo state set to TODO</description>
+    </item>
+    
+  </channel>
+</rss>
