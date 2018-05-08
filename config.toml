@@ -15,7 +15,7 @@ pluralizeListTitles = false
   navbarTitle          = "Isaac Zhou"
   # Sets where "View More Posts" links
   viewMorePostLink     = "/post/"
-
+  enableToc = true
 # Optional Params
   # Sets navbarTitle to match the section of the website
   dynamicTitles        = true

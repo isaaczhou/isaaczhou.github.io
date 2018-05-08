@@ -1,12 +1,14 @@
 +++
-title = "{{ replace .TranslationBaseName "-" " " | title }}"
-date = {{ .Date }}
+title = "Self Driving Car"
+date = 2018-05-08T17:49:26-04:00
 draft = false
 author = "Isaac Zhou"
-categories = [""]
+categories = ["Self-Driving-Car"]
 description = ""
 featured = ""
 featuredalt = ""
 featuredpath = "date"
 type = "post"
 +++
+
+Test
