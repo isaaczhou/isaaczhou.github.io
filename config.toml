@@ -61,7 +61,7 @@ pluralizeListTitles = false
 [params.intro]
   header    = "Isaac Zhou"
 
-  paragraph = "A Data Scientist Quest on Data, Coding, Tech, Business and Life"
+  paragraph = "A Data Scientist's Quest for Data, Coding, Tech, Business and Life"
 
 
   # This appears at the top of the sidebar above params.intro.header.
