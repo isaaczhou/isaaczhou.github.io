@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Markdown on Isaac Zhou</title>
-    <link>https://www.isaaczhou.com/categories/markdown/</link>
+    <link>https://isaaczhou.github.io/categories/markdown/</link>
     <description>Recent content in Markdown on Isaac Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 May 2018 00:00:00 -0400</lastBuildDate>
     
-	<atom:link href="https://www.isaaczhou.com/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://isaaczhou.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Markdown Crash Course</title>
-      <link>https://www.isaaczhou.com/post/markdown/</link>
+      <link>https://isaaczhou.github.io/post/markdown/</link>
       <pubDate>Tue, 08 May 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://www.isaaczhou.com/post/markdown/</guid>
+      <guid>https://isaaczhou.github.io/post/markdown/</guid>
       <description>To write headings use #
 For example, # Heading 1 will generate
 Heading 1 Similarly, the rest can be generated

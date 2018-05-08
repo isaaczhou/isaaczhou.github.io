@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Self-Driving-Car on Isaac Zhou</title>
-    <link>https://www.isaaczhou.com/categories/self-driving-car/</link>
+    <link>https://isaaczhou.github.io/categories/self-driving-car/</link>
     <description>Recent content in Self-Driving-Car on Isaac Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 08 May 2018 17:49:26 -0400</lastBuildDate>
     
-	<atom:link href="https://www.isaaczhou.com/categories/self-driving-car/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://isaaczhou.github.io/categories/self-driving-car/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Self Driving Car History</title>
-      <link>https://www.isaaczhou.com/post/self-driving-car-history/</link>
+      <link>https://isaaczhou.github.io/post/self-driving-car-history/</link>
       <pubDate>Tue, 08 May 2018 17:49:26 -0400</pubDate>
       
-      <guid>https://www.isaaczhou.com/post/self-driving-car-history/</guid>
+      <guid>https://isaaczhou.github.io/post/self-driving-car-history/</guid>
       <description>History This is a documentary on the seminal DARPA Grand Challenge, the beginning of the self-driving car history.   (Udacity, 2018)
 Where are we now: 2018 This is the year of 2018. Even after years&amp;rsquo; of hard working and innovation, the day that you’ll be able to buy a self-driving car, or even ride in one, is a lot further out than you probably think.   (Verge, 2018)</description>
     </item>
