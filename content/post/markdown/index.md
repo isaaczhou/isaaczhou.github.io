@@ -60,6 +60,11 @@ Image is very similar, with relative path `![orgdemo](/img/orgmode-demo.png)`
 
 Image with absolute path
 ![AI](https://cdn-images-1.medium.com/max/2000/1*yEyN36NibvtmaKgaLdq7RA.jpeg)
+
+Adjust the image size
+
+<img src="https://cdn-images-1.medium.com/max/2000/1*yEyN36NibvtmaKgaLdq7RA.jpeg" width="250">
+
 ---
 
 Unordered List
@@ -102,6 +107,7 @@ python
   import pandas as pd
   pd.read_csv("data.csv")
 ```
+
 ___
 
 Tables
