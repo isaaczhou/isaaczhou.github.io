@@ -1,0 +1,1296 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Org-Mode Capabilities</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.40.2" />
+        
+
+        
+            <meta name="author" content="Isaac Zhou">
+        
+        
+            <meta name="description" content="A Sneak Peek of Emacs Org-Mode Capabilities">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Org-Mode Capabilities"/>
+<meta name="twitter:description" content="A Sneak Peek of Emacs Org-Mode Capabilities"/>
+<meta name="twitter:site" content="@acebigdata"/>
+
+        <meta property="og:title" content="Org-Mode Capabilities" />
+<meta property="og:description" content="A Sneak Peek of Emacs Org-Mode Capabilities" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://www.isaaczhou.com/post/all-about-org-mode/" />
+
+
+
+<meta property="article:published_time" content="2017-11-13T00:00:00-05:00"/>
+
+<meta property="article:modified_time" content="2017-11-13T00:00:00-05:00"/>
+
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Org-Mode Capabilities">
+<meta itemprop="description" content="A Sneak Peek of Emacs Org-Mode Capabilities">
+
+
+<meta itemprop="datePublished" content="2017-11-13T00:00:00-05:00" />
+<meta itemprop="dateModified" content="2017-11-13T00:00:00-05:00" />
+<meta itemprop="wordCount" content="435">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="shortcut icon" href="/img/favicon/favicon.png" type="image/png">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="https://www.isaaczhou.com/css/main.css">
+            <link rel="stylesheet" href="https://www.isaaczhou.com/css/katex.min.css">
+            <link rel="stylesheet" href="https://www.isaaczhou.com/css/add-on.css">
+        
+
+        
+            
+                
+            
+        
+
+        
+            
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-103059971-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+        
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="https://www.isaaczhou.com/">post</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/">
+                            <i class="fa fa-home">&nbsp;</i>Home
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/post/">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Post
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/categories/">
+                            <i class="fa fa-sitemap">&nbsp;</i>Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/about/">
+                            <i class="fa fa-id-card-o">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/contact/">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="https://www.isaaczhou.com/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="https://www.isaaczhou.com/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/">
+                            <h3>
+                                <i class="fa fa-home">&nbsp;</i>Home
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/post/">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Post
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories/">
+                            <h3>
+                                <i class="fa fa-sitemap">&nbsp;</i>Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/about/">
+                            <h3>
+                                <i class="fa fa-id-card-o">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/contact/">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://www.isaaczhou.com/post/intro-to-neural-networks/">Intro to Deep Neural Networks</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-05-05'>
+                                    May 5, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+        
+        
+        
+
+        <a href="https://www.isaaczhou.com/post/intro-to-neural-networks/" class="image featured">
+            <img src="/img/2018/05//05/deepnn.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://www.isaaczhou.com/post/hugo-blog-in-org/">Writing Hugo blog in Org</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-05-05'>
+                                    May 5, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://www.isaaczhou.com/post/time-series-analysis-python/">Time Series Analysis in Python</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-02-05'>
+                                    February 5, 2018</time>
+                            </header>
+                            
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://www.isaaczhou.com/post/self-driving-car-history/">Self Driving Car History</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-05-08'>
+                                    May 8, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+        
+        
+        
+
+        <a href="https://www.isaaczhou.com/post/self-driving-car-history/" class="image featured">
+            <img src="/img/2018/05//08/stanley.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="https://www.isaaczhou.com/post/markdown/">Markdown Crash Course</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2018-05-08'>
+                                    May 8, 2018</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+        
+        
+        
+
+        <a href="https://www.isaaczhou.com/post/markdown/" class="image featured">
+            <img src="/img/2018/05//08/markdown.png" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /post/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f&text=Org-Mode%20Capabilities&via=acebigdata" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f&title=Org-Mode%20Capabilities" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f&title=Org-Mode%20Capabilities" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f&title=Org-Mode%20Capabilities" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f&description=Org-Mode%20Capabilities" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Isaac%20Zhou&body=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="https://www.isaaczhou.com/post/all-about-org-mode/">Org-Mode Capabilities</a></h1>
+            
+        
+        
+            <p>A Sneak Peek of Emacs Org-Mode Capabilities</p>
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2017-11-13'>
+            November 13, 2017</time>
+        <span class="author">Isaac Zhou</span>
+        
+            <p>3 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+    <section id="social-share">
+      <ul class="icons">
+        
+
+
+<li>
+  <a href="//twitter.com/share?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f&text=Org-Mode%20Capabilities&via=acebigdata" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//plus.google.com/share?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//reddit.com/submit?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f&title=Org-Mode%20Capabilities" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f&title=Org-Mode%20Capabilities" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f&title=Org-Mode%20Capabilities" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f&description=Org-Mode%20Capabilities" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Isaac%20Zhou&body=https%3a%2f%2fwww.isaaczhou.com%2fpost%2fall-about-org-mode%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+      </ul>
+    </section>
+  
+
+  
+    
+
+    
+        
+        
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+        
+        
+        
+
+        <a href="https://www.isaaczhou.com/post/all-about-org-mode/" class="image featured">
+            <img src="/img/2017/11/org.png" alt="">
+        </a>
+    
+
+
+  <div id="content">
+    
+
+<p>One of the reasons my marriage with Jupyter didn&rsquo;t hold was the beautiful and sexy org-mode. I was totally blown away the first time I saw it. Just like emacs is more than a text editor; org-mode is much more than a note-taking, spreadsheet, task tracker, planner, literate programming code editor (Oh Yeah!!!)&hellip; I guess the proper definition for org-mode is really an Emacs subsystem.</p>
+
+<h2 id="the-almighty-org-mode">The Almighty Org-Mode</h2>
+
+<p>The org-mode was first introduced to the world in 2008 at this <a href="https://youtu.be/oJTwQvgfgMM">Google Talk</a>. It&rsquo;s created by <a href="https://staff.science.uva.nl/c.dominik/">Carsten Dominik</a>, a Dutch astronomer (or as average Americans natively say a rocket scientist). This talk is fascinating. Yet just like genesis in the Bible, it&rsquo;s a little bit &ldquo;in the Old Testament&rdquo;.</p>
+
+<p>What I really enjoyed is this talk from Harry Schwartz at a <a href="https://youtu.be/SzA2YODtgK4">NYC emacs meetup talk</a>. By the way, this could be the best meetup I&rsquo;ve ever been to in New York. I tried to go there more regularly. Another cudo for this meetup is the free food and drinks. People from the host company, thoughtbot, are extremely friendly, supportive and knowledgeable.</p>
+
+<h2 id="org-mode-capabilities">Org-Mode Capabilities</h2>
+
+<p>So enough talk, let&rsquo;s have a look what org-mode is capable of:</p>
+
+<h3 id="automatically-generated-bullet-points">Automatically generated bullet points</h3>
+
+<p>Either unordered or ordered lists can be easily created:</p>
+
+<ul>
+<li>To start: Just type ~* ~</li>
+<li>Then create the siblings with <code>M RET</code> or <code>C RET</code>. I think the differences are:
+
+<ul>
+<li><code>M RET</code> is to start with a sibling of the same type</li>
+<li><code>C RET</code> is to start a new listed header</li>
+</ul></li>
+<li>To indent or unindent a list use <code>M Right</code> or <code>M Left</code></li>
+<li>To change the bullet point type, use <code>S Right</code> or <code>S Left</code></li>
+<li>Install <a href="https://github.com/sabof/org-bullets">org-bullet</a> to make it look great!</li>
+</ul>
+
+<h3 id="spreadsheet">Spreadsheet</h3>
+
+<p>Who needs Excel if you have emacs? To create a table:</p>
+
+<ul>
+<li>Simply use <code>|content|</code></li>
+<li>Use <code>|- TAB</code> to add a divider line</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th>Header1</th>
+<th>Header2</th>
+<th>Header3</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Row1</td>
+<td>Row2</td>
+<td>Row3</td>
+</tr>
+
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="easy-calendar-integration">Easy Calendar Integration</h3>
+
+<p>Calendar Integration makes it easier for task tracking and project planning:</p>
+
+<ul>
+<li><code>C c .</code> to activate the date</li>
+<li>HOLD <code>S Left</code> or <code>S Right</code> to navigate in the calendar</li>
+</ul>
+
+<h3 id="org-mode-babel-the-jupyter-notebook-killer">Org-Mode Babel: The Jupyter Notebook Killer</h3>
+
+<p>I have to say this is the best thing I&rsquo;ve ever seen, and not just in computer.</p>
+
+<ul>
+<li>ob-ipython</li>
+</ul>
+
+<p>This my most used code block. I create a snippet and generate a code block as below</p>
+
+<pre><code class="language-ipython">import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+%matplot inline
+
+fig, ax = plt.subplots();
+ax.hist(np.random.randn(1000), bins=50)
+</code></pre>
+
+
+<figure>
+    
+        <img src="/img/orgmode-demo.png" />
+    
+    
+</figure>
+
+
+<ul>
+<li>Javascript</li>
+</ul>
+
+<p>Can also evaluate javascript with proper Node.js installation</p>
+
+<pre><code class="language-js">var mod = (a, b) =&gt; Math.pow(a, b);
+console.log(mod(4,8));
+</code></pre>
+
+<p>I wish that there&rsquo;s a way to implement D3.js in org, that will be perfect</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+                        <i class="fa fa-sitemap">&nbsp;</i>
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='/categories/emacs'>Emacs</a></li>
+    
+</ul>
+
+  </footer>
+
+</article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="https://www.isaaczhou.com/post/emacs-history-setup/"
+                class="button big previous">Experiencing and Enjoying Emacs</a></li>
+    
+
+    
+        <li><a href="https://www.isaaczhou.com/post/d3-visualization-embedded-in-jupyter-notebook/"
+                class="button big next">D3 in Hugo</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='/'><img src="/img/main/profile.png" class="intro-circle" width="150" alt="Isaac Zhou" /></a>
+      
+    
+    
+      <header>
+        <h2>Isaac Zhou</h2>
+        <p>A Data Scientist's Quest for Data, Coding, Tech, Business and Life</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+          <li>
+            <a href="" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+          </li>
+        
+        
+  <li><a href="//github.com/isaaczhou" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/isaaczhou" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/acebigdata" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:admin@isaaczhou.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section id="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://www.isaaczhou.com/post/intro-to-neural-networks/">Intro to Deep Neural Networks</a>
+              </h3>
+              
+              <time class="published" datetime='2018-05-05'>
+                May 5, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+        
+        
+        
+
+        <a href="https://www.isaaczhou.com/post/intro-to-neural-networks/" class="image featured">
+            <img src="/img/2018/05//05/deepnn.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://www.isaaczhou.com/post/hugo-blog-in-org/">Writing Hugo blog in Org</a>
+              </h3>
+              
+              <time class="published" datetime='2018-05-05'>
+                May 5, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://www.isaaczhou.com/post/time-series-analysis-python/">Time Series Analysis in Python</a>
+              </h3>
+              
+              <time class="published" datetime='2018-02-05'>
+                February 5, 2018
+              </time>
+            </header>
+            
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://www.isaaczhou.com/post/self-driving-car-history/">Self Driving Car History</a>
+              </h3>
+              
+              <time class="published" datetime='2018-05-08'>
+                May 8, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+        
+        
+        
+
+        <a href="https://www.isaaczhou.com/post/self-driving-car-history/" class="image featured">
+            <img src="/img/2018/052018/05//08/stanley.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="https://www.isaaczhou.com/post/markdown/">Markdown Crash Course</a>
+              </h3>
+              
+              <time class="published" datetime='2018-05-08'>
+                May 8, 2018
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+    
+    
+        
+    
+
+
+        
+        
+        
+
+        <a href="https://www.isaaczhou.com/post/markdown/" class="image featured">
+            <img src="/img/2018/05//08/markdown.png" alt="">
+        </a>
+    
+
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /post/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+  
+    <section id="categories">
+      <header>
+        <h3>
+          <a href="/categories/">Categories</a>
+        </h3>
+      </header>
+        
+          
+        
+
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/emacs/">Emacs</a>
+                <span style="float:right;">2</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/hugo/">Hugo</a>
+                <span style="float:right;">2</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/datascience/">DataScience</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/go/">Go</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/linux/">Linux</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/markdown/">Markdown</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/neuralnetworks/">NeuralNetworks</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/self-driving-car/">Self-Driving-Car</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+        <p>
+          <article>
+            <header>
+              
+                <a href="/categories/emacs/">emacs</a>
+                <span style="float:right;">1</span>
+              
+            </header>
+          </article>
+        </p>
+        
+    </section>
+  
+
+  
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+          <li>
+            <a href="" type="application/rss+xml" target="_blank" title="RSS" class="fa fa-rss"></a>
+          </li>
+        
+        
+  <li><a href="//github.com/isaaczhou" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/isaaczhou" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//twitter.com/acebigdata" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:admin@isaaczhou.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2018
+        
+          Isaac Zhou
+        
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="https://www.isaaczhou.com/js/util.js"></script>
+      <script src="https://www.isaaczhou.com/js/main.js"></script>
+      <script src="https://www.isaaczhou.com/js/backToTop.js"></script>
+    
+
+    
+      
+        
+      
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+
