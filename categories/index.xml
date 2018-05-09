@@ -2,92 +2,92 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Isaac Zhou</title>
-    <link>https://isaaczhou.github.io/categories/</link>
+    <link>https://www.isaaczhou.com/categories/</link>
     <description>Recent content in Categories on Isaac Zhou</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://isaaczhou.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.isaaczhou.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DataScience</title>
-      <link>https://isaaczhou.github.io/categories/datascience/</link>
+      <link>https://www.isaaczhou.com/categories/datascience/</link>
       <pubDate>Mon, 05 Feb 2018 00:00:00 -0500</pubDate>
       
-      <guid>https://isaaczhou.github.io/categories/datascience/</guid>
+      <guid>https://www.isaaczhou.com/categories/datascience/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Emacs</title>
-      <link>https://isaaczhou.github.io/categories/emacs/</link>
+      <link>https://www.isaaczhou.com/categories/emacs/</link>
       <pubDate>Mon, 13 Nov 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://isaaczhou.github.io/categories/emacs/</guid>
+      <guid>https://www.isaaczhou.com/categories/emacs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Emacs</title>
-      <link>https://isaaczhou.github.io/categories/emacs/</link>
+      <link>https://www.isaaczhou.com/categories/emacs/</link>
       <pubDate>Mon, 13 Nov 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://isaaczhou.github.io/categories/emacs/</guid>
+      <guid>https://www.isaaczhou.com/categories/emacs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Go</title>
-      <link>https://isaaczhou.github.io/categories/go/</link>
+      <link>https://www.isaaczhou.com/categories/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://isaaczhou.github.io/categories/go/</guid>
+      <guid>https://www.isaaczhou.com/categories/go/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://isaaczhou.github.io/categories/hugo/</link>
+      <link>https://www.isaaczhou.com/categories/hugo/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 -0400</pubDate>
       
-      <guid>https://isaaczhou.github.io/categories/hugo/</guid>
+      <guid>https://www.isaaczhou.com/categories/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://isaaczhou.github.io/categories/linux/</link>
+      <link>https://www.isaaczhou.com/categories/linux/</link>
       <pubDate>Wed, 15 Nov 2017 00:00:00 -0500</pubDate>
       
-      <guid>https://isaaczhou.github.io/categories/linux/</guid>
+      <guid>https://www.isaaczhou.com/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>https://isaaczhou.github.io/categories/markdown/</link>
+      <link>https://www.isaaczhou.com/categories/markdown/</link>
       <pubDate>Tue, 08 May 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://isaaczhou.github.io/categories/markdown/</guid>
+      <guid>https://www.isaaczhou.com/categories/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NeuralNetworks</title>
-      <link>https://isaaczhou.github.io/categories/neuralnetworks/</link>
+      <link>https://www.isaaczhou.com/categories/neuralnetworks/</link>
       <pubDate>Sat, 05 May 2018 00:00:00 -0400</pubDate>
       
-      <guid>https://isaaczhou.github.io/categories/neuralnetworks/</guid>
+      <guid>https://www.isaaczhou.com/categories/neuralnetworks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Self-Driving-Car</title>
-      <link>https://isaaczhou.github.io/categories/self-driving-car/</link>
+      <link>https://www.isaaczhou.com/categories/self-driving-car/</link>
       <pubDate>Tue, 08 May 2018 17:49:26 -0400</pubDate>
       
-      <guid>https://isaaczhou.github.io/categories/self-driving-car/</guid>
+      <guid>https://www.isaaczhou.com/categories/self-driving-car/</guid>
       <description></description>
     </item>
     
